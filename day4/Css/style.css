@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: url('../pics/break-workout_602724.jpg');
+    background-repeat: round;
+    height: 4444px;
+    font-family: cursive;
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid; */
+    line-height: 0;
+    margin-left: 37px;
+    padding: 18px;
+    width: 168px;
+}
+
+.left {
+    position: absolute;
+    right: 22px;
+    top: 57px;
+    border: 2px solid;
+}
+
+.mid {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* border: 2px solid; */
+    height: 23px;
+    width: 103vh;
+    left: 414px;
+    bottom: 837px;
+}
+
+
+img {
+
+    width: 122px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid;
+    width:100px
+}
+
+li a {
+    padding: 73px;
+    text-decoration: none;
+    color: rgb(2, 4, 2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+li a:hover {
+    color: grey
+}
+
+.container {
+    border: 4px solid blueviolet;
+    height: 583px;
+    width: 587px;
+    margin: auto;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+
+}
+
+div input,
+.btn,
+.gender {
+    display: block;
+    margin: 20px auto;
+
+}
+
+div input {
+    /* text-align: center; */
+    height: 47px;
+    width: 433px;
+    background-color: transparent;
+    color: white;
+    border: transparent;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+
+
+.email {
+    /* border: 2px solid; */
+    margin-top: 56px;
+}
+
+.gender {
+    cursor: pointer;
+    background-color: transparent;
+    height: 22px;
+    text-align: center;
+    position: relative;
+    bottom: 41px;
+    right:125px;
+    color: cornsilk;
+    font-size: 0.9em;
+    font-family: cursive;
+    border: none;
+    letter-spacing: 0.08em;
+}
+
+.choice {
+    position: relative;
+    left: 69px;
+    color: bisque;
+}
+
+
+.btn {
+    font-family: cursive;
+    position: relative;
+    cursor: pointer;
+    background-color: rgba(219, 123, 7, 0.492);
+    border: none;
+    width: 439px;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn:active {
+    color: yellow
+}
+
+h2 {
+    position: relative;
+    top: 15px;
+    left: 160px;
+    font-size: 46px;
+    font-weight: bold;
+   font-family: 'Caveat', cursive;;
+    color: rgb(77, 63, 70);
+
+}
+
+h2:hover {
+    cursor: pointer;
+    color: rgb(8, 255, 247);
+}
+
+.label,
+.label2 {
+    position: relative;
+    left: 74px;
+    top: 29px;
+    font-size: 20px;
+}
+
+.select {
+    color: azure;
+}

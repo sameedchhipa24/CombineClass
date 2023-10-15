@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    background-color: purple;
+    height:63px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: end;
+    padding-right:135px;
+}
+
+li{
+    list-style: none;
+    padding-left: 100px;
+    margin-top:20px;
+    font-size: 28px;
+    /* color: #ffcb00; */
+}
+
+a{
+    color:black;
+    text-decoration: none;
+  
+}
+/* a:visited{
+color: brown;
+} */
+
+a:hover{
+    color:#ffcb00
+}
+
+
+body{
+    background-image: url("navbar.jpg");
+    background-size: cover;
+    
+}
+
+

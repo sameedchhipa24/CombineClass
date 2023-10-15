@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(222, 184, 135, 0.585);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+
+    padding: 85px;
+    font-size: 46px;
+    list-style: none;
+    color: black
+}
+
+.section {
+
+    border: 2px solid;
+    height: 66vh;
+    display: inline-block;
+    width: 173vh;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.pics {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    margin: 35px;
+    height: 59vh;
+
+}
+
+.heading{
+    
+    margin-top: 30px;
+}
